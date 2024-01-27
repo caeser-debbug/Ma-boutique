@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy-Shop</title>
+    <link rel="shortcut icon" href="scar cream/1.jpg" type="img/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="scar cream/1.jpg" alt="">
+            <h1>Easy-Shop</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="https://wa.me/22788672115">Whatsapp</a></li>
+        </ul>
+        <div class="number">
+            <p>+227 88371817</p>
+        </div>
+        <div class="small_menu">
+            <span>
+                <div></div>
+                <div></div>
+            </span>
+            <span>
+                <div></div>
+                <div></div>
+            </span>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+    <section id="cars">
+        <h1 class="section_title">Nos Articles</h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                   <div>
+                       <img src="scar cream/img 1.png" alt="">
+                   </div>
+                   <span>SCAR-CREAM</span>
+                   <span class="prix">8.000 FCFA</span>
+                   <a href="scar.html">Lire plus</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="scar cream/7.png" alt="">
+                    </div>
+                    <span>SUPPORT</span>
+                    <span class="prix">3.000 FCFA</span>
+                    <a href="support.html">Lire plus</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="scar cream/sonn.jpg" alt="">
+                    </div>
+                    <span>SONNETTE SANS FIL</span>
+                    <span class="prix">8.000 FCFA</span>
+                    <a href="Sonnette.html">Lire plus</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="scar cream/efero.jpg" alt="">
+                    </div>
+                    <span>EFERO</span>
+                    <span class="prix">8.000 FCFA</span>
+                    <a href="Efero.html">Lire plus</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="scar cream/epimedyumlu.png" alt="">
+                    </div>
+                    <span>THEMRA</span>
+                    <span class="prix">10.000 FCFA</span>
+                    <a href="Epimedyumlu.html">Lire plus</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="scar cream/alwardi1.jpg" alt="">
+                    </div>
+                    <span>ALWARDI</span>
+                    <span class="prix">7.000 FCFA</span>
+                    <a href="alwardi.html">Lire plus</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Chez Easy-Shop tout vos rêves deviennent réalité. </p>
+    </footer>
+
+
+
+    <script>
+        var small_menu = document.querySelector(".small_menu");
+        var menu = document.querySelector(".menu");
+        small_menu.onclick = function(){
+            small_menu.classList.toggle('active');
+            menu.classList.toggle('small');
+        }
+    </script>
+
+</body>
+</html>
